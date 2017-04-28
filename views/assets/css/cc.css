@@ -1,0 +1,132 @@
+body{
+margin: 0;
+background-image: url("../img/fondo.png");
+background-size: cover;
+}
+
+#navitar{
+      background-color: #2E2E2E;
+      background-size: 100% 50px;
+      background-repeat: no-repeat;
+      color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #170000;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 184, 31, 1);
+    background-color: rgba(255, 184, 31, 1);
+}
+
+.navbar-nav>li {
+    float: left;
+    font-size: 20px;
+}
+
+#logoMF{
+  margin-top: 10%;
+  width: 50%;
+  margin-left: 25%;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    /* -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); */
+    /* box-shadow: inset 0 1px 1px rgba(0,0,0,.075); */
+    /*-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;*/
+    /* transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; */
+}
+.form-control:focus {
+    border-color: yellow;
+    transition: 0.1s;
+    border-bottom-width: 2px;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(215, 44, 44, 0);, 0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(215, 44, 44, 0);, 0 0 8px rgba(102,175,233,.6);
+}
+#inputemail{
+  background-color: rgba(215, 44, 44, 0);
+  border-top-color: rgba(215, 44, 44, 0);
+  border-left-color: rgba(215, 44, 44, 0);
+  border-right-color: rgba(215, 44, 44, 0);
+  border-radius: 0;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  -webkit-box-shadow: 24px 10px 5px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 24px 10px 5px 0px rgba(255,255,255,1);
+  box-shadow: 24px 10px 5px 0px rgba(255,255,255,1);
+}
+#inputpass{
+  background-color: rgba(215, 44, 44, 0);
+  border-top-color: rgba(215, 44, 44, 0);
+  border-left-color: rgba(215, 44, 44, 0);
+  border-right-color: rgba(215, 44, 44, 0);
+  border-radius: 0;
+  width: 60%;
+  margin-left: 20%;
+  -webkit-box-shadow: 24px 10px 5px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 24px 10px 5px 0px rgba(255,255,255,1);
+  box-shadow: 24px 10px 5px 0px rgba(255,255,255,1);
+}
+
+.col-xs-12{
+  position: relative;
+  min-height: 1px;
+padding-right: 0;
+padding-left: 0;
+}
+
+#formulario{
+  background-image: url(../img/fondo-form.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 8px;
+  margin-top: -20%;
+  margin-top: -20%;
+  padding-top: 20%;
+  -webkit-box-shadow: 0px 7px 5px 3px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px 7px 5px 3px rgba(0,0,0,0.19);
+box-shadow: 0px 7px 5px 3px rgba(0,0,0,0.19);
+}
+
+#button{
+  background-color: #fe0;
+  border-color: rgba(215, 44, 44, 0);
+  border-radius: 6px;
+  margin-left: 20%;
+  width: 60%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  margin-bottom: 10%;
+  -webkit-box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.12);
+  box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.12);
+}

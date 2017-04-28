@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^inicio$                     index.php
+RewriteRule ^dashboard-admin$            index.php?c=main&a=dashboard
+RewriteRule ^dashboard$                   index.php?c=main&a=viewUser
+RewriteRule ^cerrar-sesion$               index.php?c=main&a=close
+RewriteRule ^admin-usuarios$              index.php?c=user
+RewriteRule ^admin-campañas$              index.php?c=camp
+RewriteRule ^admin-roles$                 index.php?c=rol
